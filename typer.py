@@ -16,7 +16,7 @@ def sraken_pierdaken():
 # if pyautogui.press('5'):
 #     sraken_pierdaken()
 
-do 
+
 
 sleep(5)
 pyautogui.alert(text='Program finished work', title='Finish', button='OK')
