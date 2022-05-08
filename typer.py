@@ -6,15 +6,15 @@ pyautogui.alert(text='Program should work now', title='Program is woking now', b
 
 sleep(2)
 
-def sraken_pierdaken():
+def akcja():
     pyautogui.keyDown('t')
     pyautogui.keyUp('t')
     # pyautogui.write('t')
-    pyautogui.write('sraken pierdaken', interval=0.08)
+    pyautogui.write('lorem ipsum', interval=0.08)
     pyautogui.press('enter')
 
 # if pyautogui.press('5'):
-#     sraken_pierdaken()
+#     akcja()
 
 
 
